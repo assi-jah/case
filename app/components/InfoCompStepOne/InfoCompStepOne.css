@@ -1,0 +1,30 @@
+.step1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.step1TxtIcone {
+    margin-top: 20px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+
+.step1LabelInput {
+    font-family: 'Code Pro LC';
+}
+
+.ant-input:disabled {
+    background-color: rgba(212, 231, 212, 0.432);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.step1Gender {
+    margin-left: 17px;
+}
+
+.radioButton {
+    display: flex;
+    flex-direction: row !important;
+}

@@ -1,0 +1,129 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #fff;
+  }
+  
+  .cntainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1200px;
+    height: 620px;
+    background: #f1f1f1;
+    margin: 10px auto 0;
+    word-break: break-all;
+    
+  }
+  
+  .bloc-onglets {
+    display: flex;
+  }
+  .tabs {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    width: 50%;
+    height: 40px;
+    background: #1f3d83;
+    cursor: pointer;
+    font-family:'Montserrat' sans-serif Black  ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+  }
+  .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .active-tabs  {
+    background: white;
+    border: solid 1px #1f3d83;
+    color: black;
+    font-family:'Montserrat' sans-serif Black  ;
+    font-size: 20px;
+  
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+  }
+  
+  
+  button {
+    border: none;
+  
+  }
+  .contenu-onglets {
+    flex-grow : 1;
+  }
+  .contenu {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .contenu h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .contenu hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .contenu p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-contenu {
+    display: block;
+  } 
+  .paragraphe-validation{
+  width: 2000px;
+  height: 500px;
+  margin: 2px 0 0;
+  margin-bottom: 10px;
+  padding: 70px 85px 44px 50px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.27);
+  background-color: rgba(225, 227, 230, 0.05);
+  font-style: normal;
+  line-height: 1.71;
+  font-size: 14px;
+  letter-spacing: normal;
+  font-family:'Montserrat' sans-serif   ;
+ }
+ .steak_inscription{
+   
+   margin-left: 2px;
+   margin-right: 50px;
+   font-family:'Montserrat'  Black ;
+ }
+ .titreinscription{
+    text-transform: uppercase;
+    font-family:'Montserrat' Black ;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 800;
+    width: 964px;
+    height: 56px;
+    margin-top: 20px;
+    margin-left: 120px;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 0.6px;
+    
+  }

@@ -1,0 +1,27 @@
+{
+  "utilisateur": [
+    {
+      "firstName": "David",
+      "lastName": "Ndecky",
+      "email": "vida.ndecky@gmail.com",
+      "phoneNumber": "775169368",
+      "password": "test123",
+      "confirmPassword": "test123",
+      "id": 1
+    }
+  ],
+  "pays": [
+    {
+      "id": 1,
+      "countryName": "Senegal"
+    },
+    {
+      "id": 2,
+      "countryName": "France"
+    },
+    {
+      "id": 3,
+      "countryName": "Gambie"
+    }
+  ]
+}

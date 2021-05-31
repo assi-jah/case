@@ -1,0 +1,22 @@
+.stepper {
+    /* background-color: white; */
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.titleStepper {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.stepContent {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}

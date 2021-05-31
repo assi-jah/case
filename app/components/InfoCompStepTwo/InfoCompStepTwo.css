@@ -1,0 +1,103 @@
+.step2Form {
+    margin-top: 9px;
+}
+
+.step2LabelInput {
+    font-size: 5px;
+    font-family: 'Code Pro LC';
+}
+
+.selectIcon {
+    height: 15px;
+    width: 10px;
+}
+
+.treeSelect.ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    height: 40px;
+    font-family: 'Code Pro LC';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ant-input {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.ant-input::placeholder {
+    color: #999999;
+}
+
+.ant-picker-large {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.ant-picker-input input::placeholder {
+    color: #999999;
+}
+
+.datePicker {
+    width: 100%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.step2Input {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+/* .setAPI {
+    
+    height: 100%;
+    width: 100%;
+} */
+
+.countryFlag {
+    width: 25px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.steak{
+  
+    border: solid 1px #707070;
+    border: #ffffff;
+    margin: auto;
+    background: none;
+ }
+
+.steak_one{
+margin-bottom: 20px;
+font-size: 18px;
+font-family: 'Montserrat';
+}
+
+.steak_inscription{
+ font-size: 15px;
+ margin-left: 2px;
+ margin-right: 50px;
+ font-family:'Montserrat';
+ }
+ .steak_two{
+    font-size: 15px;
+    margin-left: 2px;
+    margin-right: 50px;
+    font-family:'Montserrat';
+}
+.checkbox-box{
+    margin-top: 20px;
+}
+.textarea-one{
+    margin-top: 20px;
+    width: 500px;
+    height: 100px;
+}
+.imgCol-6 {
+    background-image: url('./suppotFine.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
